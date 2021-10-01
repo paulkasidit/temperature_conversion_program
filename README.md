@@ -1,7 +1,11 @@
 # temperature_conversion_program
 A program that converts temperature. (C -> F &amp; vice versa).
 
-Program uses two loops. Fir
+Brief Overview: 
+- Program converts input to a list. Program accesses the last index of the list to determine what unit type it is ("C" , or "F" ). 
+- There are two loops for conversion in each direction. 
+- A third loop is used to print and error message if the input is invalid (e.g. invalid format). 
+- Result is returned at the end, either a converted unit or error message. 
 
 Installation: 
 
@@ -9,7 +13,7 @@ Installation:
 
 Inputs accepted: 
 
-- "34C" , "74F", "20C", etc. 
+- "34C" , "74F", "20c", "52f" etc. 
 - *If an invalid input is encountered, the program will just return an error message. 
 
 Outputs: 
@@ -18,6 +22,6 @@ Outputs:
  
 How to run: 
 
-Run this in your preferred IDLE or Terminal. Script can be ran via Terminal in the directory where the file is located with the below Terminal Command.
+- Run this in your preferred IDLE or Terminal. Script can be ran via Terminal in the directory where the file is located with the below Terminal Command.
 
-"python3 main.py" 
+    "python3 main.py" 
